@@ -260,6 +260,8 @@ it is used to generate a token which is used to join the worker node into this s
 
 42) docker swarm join --token (token)
 
+![Alt text](image-48.png)
+
 it is used in worker machine to join as a worker node.
 
 43) docker service create --name (service name) -p 8080:8080(port mapping) (image name)
@@ -316,3 +318,8 @@ it is used to revert changes to a service configuration.
 
 it is used to remove the service created in the machine.
 
+52) docker swarm leave
+
+![Alt text](image-49.png)
+
+it is used to leave the leave the docker cluster.
